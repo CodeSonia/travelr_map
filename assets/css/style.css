@@ -23,3 +23,7 @@ body {
   font-weight: 500;
   color: #313639;
 }
+
+.navbar-nav {
+  text-align: right;
+}
