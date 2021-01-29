@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/*--- standard styles for websites ---*/
+
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #313639;
+  
+}
+
 /*---- logo styles ---*/
 
 .travelrMap-logo {
-  height: 3rem;
+  height: 2.5rem;
  
+}
+
+/*--- nav styles ---*/
+
+.nav-link {
+  letter-spacing: 0.1rem; 
+  font-weight: 500;
+  color: #313639;
 }
