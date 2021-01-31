@@ -25,11 +25,18 @@ color: transparent
 
 div.social-rectangle {  
     position: fixed;
-    height: 39.5rem;
     width: 4rem;
     background-color: #9C6B8C;
     top: 0;
-    
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+div.social-icons-bar {
+  width: 100%;
+  margin-bottom: 15vh;
 }
 
 .facebook,
@@ -37,15 +44,16 @@ div.social-rectangle {
 .instagram {
   display: block;
   text-align: center;
-  font-size: 1.6rem;
+  
   background: white;
   color: #9C6B8C;
   text-decoration: none;
   transition: all 0.3s ease;
+  /*
+  font-size: 1.5rem;
   padding: 0.1rem;
   margin: 10px;
-  border-radius: 30%;
-  
+  border-radius: 20%; */
 }
 /*---- logo styles ---*/
 
