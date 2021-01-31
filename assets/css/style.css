@@ -9,12 +9,53 @@ body {
   
 }
 
+a {
+color: transparent
+}
+
+
 .row {
   border: 1px solid red;
 }
 
 .col {
   border: 3px solid blue;
+}
+
+/*--- social rectangle ---*/
+
+div.social-rectangle {  
+    position: fixed;
+    height: 39.5rem;
+    width: 4rem;
+    background-color: #9C6B8C;
+    top: 0;
+    
+}
+
+.social-icons-bar{
+  top: 70%;
+}
+.facebook,
+.twitter,
+.instagram {
+  display: block;
+  
+  transition: all 0.3s ease;
+  font-size: 1.5rem;
+  margin: 0.8rem;
+  background: white;
+  border-radius: 20%;
+  color: #9C6B8C;
+  text-decoration: none;
+  padding: 15px;
+}
+
+
+.social-icons-bar a:hover {
+  background: rgb(127,172,214);
+background: linear-gradient(90deg, rgba(127,172,214,1) 0%, rgba(161,178,216,1) 0%, rgba(191,184,218,1) 39%);
+color: #9C6B8C;
 }
 /*---- logo styles ---*/
 
