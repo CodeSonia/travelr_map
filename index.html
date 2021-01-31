@@ -34,14 +34,18 @@
       <div class="container">
 
         <a href="#travelrMap-home">
-          <img class="travelrMap-logo" src="/assets/images/travelr_map_logo.png" alt="travelrMap logo with a pin location item reading travlerMap">
+          <img class="travelrMap-logo" src="/assets/images/travelr_map_logo.png"
+            alt="travelrMap logo with a pin location item reading travlerMap">
         </a>
 
+        <!-- Toggle button -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+          <!-- Nav items start-->
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -52,15 +56,17 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Map</a>
             </li>
+
+            <!-- Drop-down list with countries-->
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 Locations
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Turkey</a></li>
-                <li><a class="dropdown-item" href="#">Morocco</a></li>
-                <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+                <li><a class="dropdown-item" role="menuitem" href="#">Turkey</a></li>
+                <li><a class="dropdown-item" role="menuitem" href="#">Morocco</a></li>
+                <li><a class="dropdown-item" role="menuitem" href="#">United Kingdom</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -85,4 +91,5 @@
     crossorigin="anonymous"></script>
 
 </body>
+
 </html>
