@@ -9,6 +9,13 @@ body {
   
 }
 
+.row {
+  border: 1px solid red;
+}
+
+.col {
+  border: 3px solid blue;
+}
 /*---- logo styles ---*/
 
 .travelrMap-logo {
