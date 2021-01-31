@@ -45,8 +45,8 @@ div.social-icons-bar {
   display: block;
   text-align: center;
   
-  background: white;
-  color: #9C6B8C;
+  
+  color: white;
   text-decoration: none;
   transition: all 0.3s ease;
   /*
