@@ -44,16 +44,12 @@ div.social-icons-bar {
 .instagram {
   display: block;
   text-align: center;
-  
-  
+  font-size: 1.5rem;
+  height: 100%;
+  width: 100%;
   color: white;
   text-decoration: none;
   transition: all 0.3s ease;
-  /*
-  font-size: 1.5rem;
-  padding: 0.1rem;
-  margin: 10px;
-  border-radius: 20%; */
 }
 /*---- logo styles ---*/
 
