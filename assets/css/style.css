@@ -12,7 +12,7 @@ body {
 a {
 color: transparent
 }
-
+/*
 .row {
   border: 1px solid red;
 }
@@ -20,7 +20,7 @@ color: transparent
 .col {
   border: 3px solid blue;
 }
-
+*/
 /*--- social rectangle ---*/
 
 div.social-rectangle {  
@@ -44,13 +44,23 @@ div.social-icons-bar {
 .instagram {
   display: block;
   text-align: center;
+  height: auto;
+  width: auto;
+  background:white;
+  color: #9C6B8C;
+  border-radius: 80%;
   font-size: 1.5rem;
-  height: 100%;
-  width: 100%;
-  color: white;
+  padding: 10px;
   text-decoration: none;
   transition: all 0.3s ease;
 }
+
+.social-icons-bar a:hover {
+  background: rgb(127,172,214);
+background: linear-gradient(90deg, rgba(127,172,214,1) 0%, rgba(161,178,216,1) 0%, rgba(191,184,218,1) 39%);
+color: #9C6B8C;
+}
+
 /*---- logo styles ---*/
 
 .travelrMap-logo {
